@@ -1,6 +1,6 @@
-### TuxLite Readme
+### WPSH Readme
 
-TuxLite is a free collection of shell scripts for rapid deployment of
+WPSH is a free collection of shell scripts for rapid deployment of
 LAMP and LNMP stacks (Linux, Apache/Nginx, MySQL and PHP) for Debian and
 Ubuntu. 
 
@@ -21,20 +21,11 @@ The following are installed:-
 -   Postfix mail server (securely configured to be outgoing only)
 -   Varnish cache (optional)
 
-For more detailed explanation on the installation, usage and script features, 
-kindly refer to these links:-
-
-[Installation](http://tuxlite.com/installation/)
-
-[Script features](http://tuxlite.com/script-details/)
-
-[Download](http://tuxlite.com/download/)
-
 ### Quick Install (Git)
 
-    # Install git and clone TuxLite
+    # Install git and clone WPSH
     aptitude install git
-    git clone https://github.com/Mins/TuxLite.git
+    git clone https://github.com/tecmie/wpsh.git
     cd TuxLite
     
     # Edit options to enter server IP, MySQL password etc.
@@ -71,9 +62,9 @@ kindly refer to these links:-
 If this is your first time with a Linux server, I suggest spending a day
 reading the "getting started" tutorials in Linode Library.
 
-### Why use TuxLite?
+### Why use WPSH?
 
--   TuxLite LAMP stack configures Apache with mpm\_event and PHP with
+-   WPSH LAMP stack configures Apache with mpm\_event and PHP with
     fastcgi (PHP-FPM). This gives much higher performance and lower memory
     consumption than the regular LAMP tutorials/guides using mod\_php.
 -   Uses official distribution packages. You are not at the mercy of the
